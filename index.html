@@ -7,24 +7,69 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-    <aside>
-        <h1>Dashboard</h1>
-        <ul >
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Messages</a></li>
-            <li><a href="#">History</a></li>
-            <li><a href="#">Tasks</a></li>
-            <li><a href="#">Communities</a></li>
+    <main class="container">
+    <aside class="Dashboard">
+        <h1 class="dashHeading">Dashboard</h1>
+        <ul class="dashMenu">
+            <li class="dashHome">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Home</a>
+            </li>
+            <li class="dashProfile">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Profile</a>
+            </li>
+            <li class="dashMessages">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Messages</a>
+            </li>
+            <li class="dashHistory">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">History</a>
+            </li>
+            <li class="dashTasks">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Tasks</a>
+            </li>
+            <li class="dashComm">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Communities</a>
+            </li>
         </ul>
-        <ul>
-            <li><a href="#">Settings</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Privacy</a></li>
+        <ul class="dashControl">
+            <li class="dashSettings">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Settings</a>
+            </li>
+            <li class="dashSupport">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Support</a>
+            </li>
+            <li class="dashPrivacy">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star"></i> <!-- Example star icon -->
+                <a href="#">Privacy</a>
+            </li>
         </ul>
     </aside>
-    <header>
+    <header class="navigatingHeader">
         <input type="text" placeholder="search bar">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
             integrity="...">
@@ -32,9 +77,10 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
             integrity="...">
         <i class="fas fa-star"></i> <!-- Example star icon -->
-        <h2>Morgan Oakley</h2>
-        <p>Hi there,</p>
-        <h2>Morgan Oakley</h2>
+        <h2 class="userName">Morgan Oakley</h2>
+        <br>
+        <p class="greetingP">Hi there,</p>
+        <h2 class="userName">Morgan Oakley</h2>
         <button><a href="#">New</a></button>
         <button><a href="#">Upload</a></button>
         <button><a href="#">Share</a></button>
@@ -42,47 +88,52 @@
 
         <section>
             <h2>Your Projects</h2>
-            <div>
-                <h3>
-                    <p></p>
+            <div class="card1">
+                <h3 class="cardHeading">
+                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque, 
+                        tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
                 </h3>
             </div>
-            <div>
-                <h3>
-                    <p></p>
+            <div class="card2">
+                <h3 class="cardHeading">
+                    <p class="cardPar"></p>
                 </h3>
             </div>
-            <div>
-                <h3>
-                    <p></p>
+            <div class="card3">
+                <h3 class="cardHeading">
+                    <p class="cardPar"></p>
                 </h3>
             </div>
-            <div>
-                <h3>
-                    <p></p>
+            <div class="card4">
+                <h3 class="cardHeading">
+                    <p class="cardPar"></p>
                 </h3>
             </div>
-            <div>
-                <h3>
-                    <p></p>
+            <div class="card5">
+                <h3 class="cardHeading">
+                    <p class="cardPar"></p>
                 </h3>
             </div>
-            <div>
-                <h3>
-                    <p></p>
+            <div class="card6">
+                <h3 class="cardHeading">
+                    <p class="cardPar"></p>
                 </h3>
             </div>
         </section>
         <section>
             <h2>Announcements</h2>
-            <div>
+            <div class="announcementsContainer">
                 <p></p>
                 <p></p>
                 <p></p>
             </div>
             <h2>Trending</h2>
-            <div>
-
+            <div class="usersTrending">
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
             </div>
         </section>
     </main>
