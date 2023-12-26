@@ -10,11 +10,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&family=Rubik+Doodle+Shadow&family=Sedgwick+Ave+Display&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+         href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Roboto:ital,wght@1,400;1,700&family=Rubik+Doodle+Shadow&family=Sedgwick+Ave+Display&display=swap"
+        rel="stylesheet">
 </head>
 <body>
-    <main class="container">
-    <aside class="Dashboard">
-        <h1 class="dashHeading">Dashboard</h1>
+    <main id="container">
+    <aside id="dashboard">
+        <div class="dashHeading">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="...">
+        <i class="fas fa-star"></i> <!-- Example star icon -->
+        <h1>Dashboard</h1>
+        </div>
         <ul class="dashMenu">
             <li class="dashHome">
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -74,69 +84,82 @@
             </li>
         </ul>
     </aside>
-    <header class="navigatingHeader">
-        <input type="text" placeholder="search bar">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="...">
-        <i class="fas fa-star"></i> <!-- Example star icon -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-            integrity="...">
-        <i class="fas fa-star"></i> <!-- Example star icon -->
-        <h2 class="userName">Morgan Oakley</h2>
-        <br>
-        <p class="greetingP">Hi there,</p>
-        <h2 class="userName">Morgan Oakley</h2>
-        <button><a href="#">New</a></button>
-        <button><a href="#">Upload</a></button>
-        <button><a href="#">Share</a></button>
+    <header id="navigatingHeader">
+        <div class="headerColumn">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                integrity="...">
+            <i class="fas fa-star"></i> <!-- Example star icon -->
+            <input class="searchbar" type="text" placeholder="search bar">
+            <div class="iconUser">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+                    integrity="...">
+                <i class="fas fa-star" id=""></i> <!-- Example star icon -->
+                <h2 class="userName1">Morgan Oakley</h2>
+            </div>
+        </div>
+        <div class="user">
+            <h2 class="userName2"> <span>Hi, There</span><br>Morgan Oakley</h2>
+            <div class="userButtons">
+                <button><a href="#">New</a></button>
+                <button><a href="#">Upload</a></button>
+                <button><a href="#">Share</a></button>
+            </div>
+        </div>
     </header>
 
-        <section>
+        <section id="cardSection">
             <h2>Your Projects</h2>
+            <div class="grid">
             <div class="card1">
                 <h3 class="cardHeading">
-                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                        Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque, 
-                        tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
+                    What now
                 </h3>
+                <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque,
+                    tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
             </div>
             <div class="card2">
                 <h3 class="cardHeading">
-                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                </h3>
+                <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque,
                     tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
-                </h3>
             </div>
             <div class="card3">
                 <h3 class="cardHeading">
-                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Example
+                </h3>
+                <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque,
                     tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
-                </h3>
             </div>
             <div class="card4">
                 <h3 class="cardHeading">
-                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Example
+                </h3>
+                <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque,
                     tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
-                </h3>
             </div>
             <div class="card5">
                 <h3 class="cardHeading">
-                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Example
+                </h3>
+                <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque,
                     tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
-                </h3>
             </div>
             <div class="card6">
                 <h3 class="cardHeading">
-                    <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    
+                </h3>
+                <p class="cardPar"> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                     Culpa doloribus ab illo cum tempore quisquam quibusdam commodi aliquam a atque,
                     tempora sequi corrupti nobis non optio libero quasi dolor provident.</p>
-                </h3>
+            </div>
             </div>
         </section>
-        <section>
+        <section id="notificationSection">
             <h2>Announcements</h2>
             <div class="announcementsContainer">
                 <p class="announcePar">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
