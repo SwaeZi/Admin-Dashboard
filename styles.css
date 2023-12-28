@@ -1,13 +1,14 @@
-* {
-    box-sizing: border-box;
-}
-
-html,body {
-    font-family: "Roboto Mono", sans-serif;
+*::before,
+*::after,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Mono", sans-serif;
 }
 
 h1,h2 {
-    font-family: "Rubik Doodle Shadow", sans-serif;
+    font-family: "Roboto Mono", sans-serif;
 }
 
 
@@ -15,16 +16,16 @@ h1,h2 {
 #container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 0.2fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr;
     height: calc(100vh - 10px);
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 /* Main Container for Dashboard Menu */ 
 #dashboard {
     display: inline-block;
     grid-column: 1/2;
-    grid-row: 1/4;
+    grid-row: 1/3;
     background-color: rgb(22, 125, 234);
 }
 
@@ -61,6 +62,7 @@ a {
     display: grid;
     grid-column: 2/6;
     grid-row: 1/2;
+    
 }
 
 /* Sub-Container for SearchBar, UserNames, UserIcons */
@@ -103,39 +105,84 @@ a {
 button { 
     background-color: rgba(0, 0, 255, 0.32);
     color: black;
-    border-radius: 10px;
-    font-size: large;
-
+    border-radius: 10px;    font-size: large;
 }
 
 #cardSection {
     display: grid;
     grid-gap: 20px;
-    background-color: rgb(244, 147, 0);
+    background-color: rgb(205,205,205);
     grid-column: 2/5;
-    grid-row: 2/4;
-    z-index: 1;
+    grid-row: auto;
+}
+
+.projectsHeading { 
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
 }
 
 .grid  {
     display: grid;
     grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-template-rows: repeat(4, minmax(300px, 1fr));
+    grid-template-rows: repeat(3, minmax(300px, 1fr));
 }
 .card1, .card2, .card3, .card4, .card5, .card6 {
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin: 5px;
-    background-color: rgb(245, 239, 239);
-    border-radius: 20px;
-    width: 300px;
-    height: 300px;
-
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(253, 253, 253);
+    border-left-style: outset;
+    border-left-color: rgb(247, 168, 89);
+    border-left-width: 6px;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
 }
 
+
 #notificationSection {
-    grid-column: 5/6;
-    grid-row: 2/3;
-    background-color: rgb(108, 108, 243);
+    grid-column: 5/5;
+    grid-row: 2/2;
+    background-color: rgb(205, 205, 205);
+}
+
+.announcementsContainer {
+    display: grid;
+    border-color: aliceblue;
+    margin: 5px;
+    padding: 2px;
+    font-style: normal;
+    color: white;
+}
+
+.notHeading {
+    margin: 5px;
+    font-size: large;
+}
+
+.announcePar {
+    font-size: small;
+    border-radius: 10px;
+}
+
+#usersTrending {
+    display: grid;
+    justify-content: start;
+    background-color: white;
+    border-radius: 20px;
+    max-width: 350px;
+    max-height: auto;
+}
+
+.trendingHeading {
+    display: flex;
+    
+    
+}
+
+.userList {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
 }
