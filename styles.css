@@ -29,7 +29,7 @@ h3 {
     display: inline-block;
     grid-column: 1/2;
     grid-row: 1/3;
-    background-color: rgb(22, 125, 234);
+    background-color: #0ea5e9;
 }
 
 /* Top Dashboard Heading */
@@ -65,7 +65,6 @@ a {
     display: grid;
     grid-column: 2/6;
     grid-row: 1/2;
-    
 }
 
 /* Sub-Container for SearchBar, UserNames, UserIcons */
@@ -98,7 +97,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 4em;
+    box-shadow: 5px 5px 5px rgb(8, 8, 8);
 }
 
 /* Buttons */
@@ -119,7 +118,7 @@ button {
 #cardSection {
     display: grid;
     grid-gap: 20px;
-    background-color: rgb(205,205,205);
+    background-color: #d1d5db;
     grid-column: 2/5;
     grid-row: auto;
 }
@@ -146,13 +145,14 @@ button {
     border-top-left-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
+    box-shadow: 10px 10px 5px rgb(161, 160, 160);
 }
 
 
 #notificationSection {
     grid-column: 5/5;
     grid-row: 2/2;
-    background-color: rgb(205, 205, 205);
+    background-color: #d1d5db;
 }
 
 .announcementsContainer {
@@ -162,6 +162,7 @@ button {
     margin: 5px;
     font-style: normal;
     color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px rgb(161, 160, 160);
 }
 
 .notHeading, .trendingHeading {
@@ -181,14 +182,14 @@ button {
     display: flex;
     justify-content: start;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     max-width: 350px;
     max-height: auto;
+    box-shadow: 5px 5px 5px rgb(161, 160, 160);
 }
 
 .userList {
     display: grid;
     font-style: normal;
     color: rgb(0, 0, 0);
-    border-radius: 10px;
 }
